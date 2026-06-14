@@ -1,3 +1,4 @@
+vim.opt.guifont = "MesloLGM Nerd Font:h14"
 
 vim.opt.clipboard = "unnamedplus"
 
