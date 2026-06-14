@@ -1,11 +1,16 @@
 vim.g.mapleader = " "
 
+vim.opt.number = true
+vim.opt.relativenumber = true
+
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 vim.opt.guifont = "MesloLGM Nerd Font:h14"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
+vim.opt.cursorline = true
+vim.api.nvim_set_hl(0, "LineNr", { fg = "#647681", })
 
 vim.g.neovide_opacity = 0.30
 vim.g.neovide_normal_opacity = 0.30
